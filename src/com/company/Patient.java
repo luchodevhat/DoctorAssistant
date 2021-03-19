@@ -1,17 +1,13 @@
 package com.company;
 
 public class Patient {
-    String name, email, address, phoneNumber, birthday, blood;
-    Double weight,height;
+    private String name, email;
+    String address, phoneNumber, birthday, blood;
+    private Double weight,height;
 
     // constructor
     Patient(String name, String email) {
         this.name = name;
         this.email = email;
-        this.address = address;
-        this.phoneNumber = phoneNumber;
-        this.birthday = birthday;
-        this.blood = blood;
     }
-
 }
