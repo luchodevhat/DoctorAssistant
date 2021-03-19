@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
+        //Patient patientOne = new Patient("Luis Alejandro", "alfaroalejandro597@gmail.com");
         UIMenu.showMenu();
-
     }
 }
