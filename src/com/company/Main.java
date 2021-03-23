@@ -1,13 +1,14 @@
 package com.company;
 
+import com.company.Models.Doctor;
+import com.company.Models.Users;
+
 import java.util.Date;
-import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
-
+/*
         Doctor myDoctor = new Doctor("Luis Alejandro Alfaro Quesada", "alfaroalejandro597@gmail.com");
         myDoctor.addAvailableAppointment(new Date(), "4pm");
         myDoctor.addAvailableAppointment(new Date(), "10am");
@@ -16,9 +17,13 @@ public class Main {
         myDoctor.setPhoneNumber("12345678");
         myDoctor.setAddres("275 Este de los bomberos");
         myDoctor.setSpeciality("Cirujano");
-
         System.out.println(myDoctor);
-
-        //UIMenu.showMenu();
+         UIMenu.showMenu();
+*/
+/*
+        Users user = new Doctor("Luis Alejandro Alfaro", "alfaroalejandro597@gmail.com");
+        user.showDataUser();
+*/
+        System.out.println("Hola");
     }
 }

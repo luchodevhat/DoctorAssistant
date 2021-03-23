@@ -1,7 +1,7 @@
-package com.company;
-import java.util.Scanner;
+package com.company.Models;
+import com.company.Models.Users;
 
-public class Patient extends Users{
+public class Patient extends Users {
     private String birthday, blood;
     private Double weight,height;
 
@@ -54,5 +54,11 @@ public class Patient extends Users{
                 "blood =" + blood + '\n' +
                 "weight =" + weight + "\n" +
                 "height =" + height;
+    }
+
+    @Override
+    public void showDataUser() {
+        System.out.println("Paciente" + "\n" +
+                            "Historial completo desde nacimiento");
     }
 }

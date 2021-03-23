@@ -1,9 +1,9 @@
-package com.company;
+package com.company.Models;
 
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Doctor extends Users{
+public class Doctor extends Users {
 
     //Atributo de doctor
 
@@ -11,7 +11,7 @@ public class Doctor extends Users{
 
 // constructor
 
-    Doctor(String name, String email) {
+    public Doctor(String name, String email) {
         super(name, email);
         System.out.println("El nombre del Doctor asignado es: " + name);
         this.speciality = speciality;
@@ -46,6 +46,14 @@ public class Doctor extends Users{
                 "speciality = " + speciality + "\n" +
                 "availableAppointments = " + availableAppointments.toString();
     }
+
+    @Override
+    public void showDataUser() {
+        System.out.println("Hospital : Cruz Roja" + "\n" +
+                            "Departamento: Cancerologia" + "\n" +
+                            "Empleado: Doctor");
+    }
+
     // clase anidada
 
     public static class AvailableAppointment {

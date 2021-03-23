@@ -1,6 +1,6 @@
-package com.company;
+package com.company.Models;
 
-public class Users {
+public abstract class Users {
     private int id;
     private String name, email, phoneNumber, addres;
 
@@ -70,4 +70,6 @@ public class Users {
                 "phoneNumber = " + phoneNumber + "\n" +
                 "addres = " + addres + "\n";
     }
+
+    public abstract void showDataUser();
 }
