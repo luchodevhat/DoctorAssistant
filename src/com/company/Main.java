@@ -1,7 +1,9 @@
 package com.company;
 
 import com.company.Models.Doctor;
+import com.company.Models.Nurse;
 import com.company.Models.Users;
+import com.company.Ui.UIMenu;
 
 import java.util.Date;
 
@@ -19,11 +21,9 @@ public class Main {
         myDoctor.setSpeciality("Cirujano");
         System.out.println(myDoctor);
          UIMenu.showMenu();*/
+        UIMenu.showMenu();
 
 
-        Users user = new Doctor("Luis Alejandro Alfaro", "alfaroalejandro597@gmail.com");
-        user.showDataUser();
 
-        System.out.println("Hola");
     }
 }

@@ -13,7 +13,6 @@ public class Doctor extends Users {
 
     public Doctor(String name, String email) {
         super(name, email);
-        System.out.println("El nombre del Doctor asignado es: " + name);
         this.speciality = speciality;
     }
 
@@ -51,7 +50,7 @@ public class Doctor extends Users {
     public void showDataUser() {
         System.out.println("Hospital : Cruz Roja" + "\n" +
                             "Departamento: Cancerologia" + "\n" +
-                            "Empleado: Doctor");
+                            "Emplead@: Doctor");
     }
 
     // clase anidada

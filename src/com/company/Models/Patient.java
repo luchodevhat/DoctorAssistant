@@ -6,7 +6,7 @@ public class Patient extends Users {
     private Double weight,height;
 
     // constructor
-    Patient(String name, String email) {
+    public Patient(String name, String email) {
         super(name, email);
     }
 

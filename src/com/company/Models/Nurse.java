@@ -6,7 +6,7 @@ public class Nurse extends Users {
 
     // constructor
 
-    Nurse(String name, String email) {
+    public Nurse(String name, String email) {
         super(name, email);
     }
 
@@ -14,7 +14,7 @@ public class Nurse extends Users {
     public void showDataUser() {
         System.out.println("Hospital: Cruz Verde" + "\n" +
                             "Departamentos: Nutriologia, Cancerologia, Pedriatria" + "\n" +
-                            "Empleado: Nurse");
+                            "Emplead@: Nurse");
     }
 
     // getter setters
