@@ -18,12 +18,12 @@ public class Main {
         myDoctor.setAddres("275 Este de los bomberos");
         myDoctor.setSpeciality("Cirujano");
         System.out.println(myDoctor);
-         UIMenu.showMenu();
-*/
-/*
+         UIMenu.showMenu();*/
+
+
         Users user = new Doctor("Luis Alejandro Alfaro", "alfaroalejandro597@gmail.com");
         user.showDataUser();
-*/
+
         System.out.println("Hola");
     }
 }
