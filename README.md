@@ -5,8 +5,6 @@ This is a little project, made with Java for practice POO
 
 
 
-For example:
-1. POO with Java
-2. How to write clean code
-3.  Graphical user interface
+**THIS IS THE DEVELOP BRANCH**:boy:
 
+Here im working on the UI of the program
